@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    gap:25px;
     align-items: center;
 }
 .navbar.mobile{
@@ -38,8 +39,12 @@
     border: none;
 }
 
-
-@media screen and (max-width: 1321px) {
+@media screen and (max-width: 1312px){
+    .navbar-list{
+        gap:15px;
+    }
+}
+@media screen and (max-width: 1025px) {
     .menu-icon {
         display: block;
     }
