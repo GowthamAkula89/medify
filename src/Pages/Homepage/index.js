@@ -1,7 +1,8 @@
 import React from "react";
-import TitleSection from "../TitleSection";
-import Navbar from "../Navbar";
+import TitleSection from "../../Components/TitleSection";
+import Navbar from "../../Components/Navbar";
 import "./homepage.css";
+import HeroSection from "../../Components/HeroSection";
 const Homepage = () => {
     console.log("hi")
     return(
@@ -9,6 +10,7 @@ const Homepage = () => {
             <TitleSection/>
             <div className="medify-content">
                 <Navbar/>
+                <HeroSection/>
             </div>
         </div>
     )

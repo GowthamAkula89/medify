@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Homepage from './Components/Homepage';
+import Homepage from './Pages/Homepage';
 export const config = {
   endpoint: `https://meddata-backend.onrender.com`,
 };
