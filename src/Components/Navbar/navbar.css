@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar.mobile{
+    display: none;
+}
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar-mobile-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.bookings-btn {
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    background-color: #2AA8FF;
+    border: none;
+}
+
+
+@media screen and (max-width: 1321px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar.mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar.desktop{
+        display: none;
+    }
+    
+
+    .navbar-list.open {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+}
