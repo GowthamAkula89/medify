@@ -3,6 +3,7 @@ import TitleSection from "../../Components/TitleSection";
 import Navbar from "../../Components/Navbar";
 import "./homepage.css";
 import HeroSection from "../../Components/HeroSection";
+import FilterSection from "../../Components/FilerSection";
 const Homepage = () => {
     console.log("hi")
     return(
@@ -11,6 +12,7 @@ const Homepage = () => {
             <div className="medify-content">
                 <Navbar/>
                 <HeroSection/>
+                <FilterSection/>
             </div>
         </div>
     )
