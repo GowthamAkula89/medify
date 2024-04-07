@@ -4,6 +4,7 @@ import Navbar from "../../Components/Navbar";
 import "./homepage.css";
 import HeroSection from "../../Components/HeroSection";
 import FilterSection from "../../Components/FilerSection";
+import OffersSection from "../../Components/OffersSection";
 const Homepage = () => {
     console.log("hi")
     return(
@@ -13,6 +14,7 @@ const Homepage = () => {
                 <Navbar/>
                 <HeroSection/>
                 <FilterSection/>
+                <OffersSection/>
             </div>
         </div>
     )
