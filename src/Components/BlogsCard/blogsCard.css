@@ -4,7 +4,6 @@
     border-radius:  10px;
     border: 1px solid #eae6e6;
     overflow: hidden;
-    padding: 18px;
 }.card-data{
     display: flex;
     flex-direction: column;
