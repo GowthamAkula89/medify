@@ -1,0 +1,21 @@
+.blogsAndNews{
+    background-color: #ffffff;
+    padding: 45px 125px;
+    
+}
+.blogsAndNews-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #2AA7FF;
+    text-align: center;
+}
+@media screen and (max-width : 989px) {
+    .subsection-title{
+        font-size: 26px;
+    }
+    .blogsAndNews{
+        padding: 15px 15px;
+        
+    }
+}

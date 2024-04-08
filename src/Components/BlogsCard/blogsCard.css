@@ -1,0 +1,40 @@
+.blogsCard{
+    width: 363px;
+    height: 458px;
+    border-radius:  10px;
+    border: 1px solid #eae6e6;
+    overflow: hidden;
+    padding: 18px;
+}.card-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+}
+.card-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #77829D;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #1B3C74;
+}
+.doctor-details{
+    display: flex;
+    gap: 2px;
+}
+@media screen and (max-width : 789px) {
+    /* .card-title{
+        font-size: 16px;
+    }
+    .blogsCard{
+        width: 363px;
+    }
+    .card-text{
+        font-size: 12px;    
+    } */
+}

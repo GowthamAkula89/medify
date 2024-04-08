@@ -38,12 +38,9 @@ export default function SpecialistsSlider({specialists}) {
             >
                 {specialists.map((specialist, index) => (
                     <SwiperSlide key={index} className='specialist-item'>
-                        
                             <img className='specialist-img' src={specialist.imgSrc} alt={specialist.alt}/>
                             <div className='specialist-name'>{specialist.name}</div>
                             <div className='specialist-specialisation'>{specialist.specialisation}</div>
-                        
-                        
                     </SwiperSlide>
                 ))}
             </Swiper>
