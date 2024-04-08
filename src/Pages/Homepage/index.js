@@ -7,6 +7,7 @@ import FilterSection from "../../Components/FilerSection";
 import OffersSection from "../../Components/OffersSection";
 import Specialisation from "../../Components/Specialisations";
 import Specialists from "../../Components/Specialists";
+import GoalsAndService from "../../Components/GoalsAndService";
 const Homepage = () => {
     console.log("hi")
     return(
@@ -22,6 +23,7 @@ const Homepage = () => {
                 <Specialisation/>
             </div>
             <Specialists/>
+            <GoalsAndService/>
         </div>
     )
 }

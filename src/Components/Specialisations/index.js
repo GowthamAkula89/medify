@@ -17,7 +17,7 @@ const Specialisation = () => {
             <div className="specialisation-list">
                 {services.map((specialisation,index) => {
                     return(
-                        <div className="specialisation-item">
+                        <div key={index} className="specialisation-item">
                             <img className="specialisation-img" src={specialisation.imgSrc} alt={specialisation.alt}/>
                             <div className="specialisation-type">{specialisation.text}</div>
                         </div>
