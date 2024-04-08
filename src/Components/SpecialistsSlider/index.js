@@ -2,28 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './offersSection.css';
+import './specialistsSlider.css';
 import { Pagination } from 'swiper/modules';
 
-export default function OffersSection() {
-    const offers = [
-        { imgSrc: "offer1.png", alt: "offer1", type: "offer1" },
-        { imgSrc: "offer24.png", alt: "offer24", type: "offer24" },
-        { imgSrc: "offer1.png", alt: "offer1", type: "offer1" },
-        { imgSrc: "offer24.png", alt: "offer24", type: "offer24" },
-        { imgSrc: "offer5.png", alt: "offer5", type: "offer5" },
-        { imgSrc: "offer24.png", alt: "offer24", type: "offer24" },
-        { imgSrc: "offer5.png", alt: "offer5", type: "offer5" },
-    ];    
-
+export default function SpecialistsSlider({specialists}) {
     const [slidesPerView, setSlidesPerView] = useState(3);
-
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 768) {
                 setSlidesPerView(2);
             } else {
-                setSlidesPerView(3);
+                setSlidesPerView(5);
             }
         };
 
@@ -37,7 +26,7 @@ export default function OffersSection() {
     }, []);
 
     return (
-        <div className='offers-section'>
+        <div className='specialists-section'>
             <Swiper
                 slidesPerView={slidesPerView}
                 spaceBetween={20}
@@ -47,9 +36,14 @@ export default function OffersSection() {
                 modules={[Pagination]}
                 className="mySwiper"
             >
-                {offers.map((offer, index) => (
-                    <SwiperSlide key={index} className='element-img'>
-                        <img className='offer-img' src={offer.imgSrc} alt={offer.alt}/>
+                {specialists.map((specialist, index) => (
+                    <SwiperSlide key={index} className='specialist-item'>
+                        
+                            <img className='specialist-img' src={specialist.imgSrc} alt={specialist.alt}/>
+                            <div className='specialist-name'>{specialist.name}</div>
+                            <div className='specialist-specialisation'>{specialist.specialisation}</div>
+                        
+                        
                     </SwiperSlide>
                 ))}
             </Swiper>

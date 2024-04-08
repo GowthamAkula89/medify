@@ -34,6 +34,9 @@
     gap: 2px;
     border-radius: 8px;
 }
+.search-btn:hover{
+    cursor: pointer;
+}
 @media screen and (max-width:1065px){
     .search-section{
         gap: 15px;

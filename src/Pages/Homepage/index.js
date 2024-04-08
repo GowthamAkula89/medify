@@ -5,6 +5,8 @@ import "./homepage.css";
 import HeroSection from "../../Components/HeroSection";
 import FilterSection from "../../Components/FilerSection";
 import OffersSection from "../../Components/OffersSection";
+import Specialisation from "../../Components/Specialisations";
+import Specialists from "../../Components/Specialists";
 const Homepage = () => {
     console.log("hi")
     return(
@@ -14,8 +16,12 @@ const Homepage = () => {
                 <Navbar/>
                 <HeroSection/>
                 <FilterSection/>
-                <OffersSection/>
             </div>
+            <OffersSection/>
+            <div className="medify-content">
+                <Specialisation/>
+            </div>
+            <Specialists/>
         </div>
     )
 }

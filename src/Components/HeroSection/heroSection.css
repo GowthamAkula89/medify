@@ -28,7 +28,7 @@
     color: #5C6169;
     line-height: 32px;
 }
-.herosection-btn{
+.btn{
     width: 177px;
     height: 48px;
     background-color: #2AA8FF;
@@ -39,6 +39,9 @@
     color: #FFFFFF;
     padding: 12px 36px;
     border-radius: 8px;
+}
+.btn:hover{
+    cursor: pointer;
 }
 @media screen and (max-width: 678px) {
     .herosection-text1{
