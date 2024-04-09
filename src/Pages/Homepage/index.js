@@ -9,16 +9,9 @@ import Specialisation from "../../Components/Specialisations";
 import Specialists from "../../Components/Specialists";
 import GoalsAndService from "../../Components/GoalsAndService";
 import BlogsAndNews from "../../Components/BlogsAndNews";
-import BlogsSlider from "../../Components/BlogsSlider";
 import { About } from "../../Components/About";
+import FAQ from "../../Components/FAQ";
 const Homepage = () => {
-    const blogsDetails = [
-        {imgSrc:"blogImg.png", doctorImg:"doctorImg.png", type:"Medical", date: "March 31, 2022",text:"6 Tips To Protect Your Mental Health When You’re Sick", doctorName:"Rebecca Lee"},
-        {imgSrc:"blogImg.png", doctorImg:"doctorImg.png", type:"Medical", date: "March 31, 2022",text:"6 Tips To Protect Your Mental Health When You’re Sick", doctorName:"Rebecca Lee"},
-        {imgSrc:"blogImg.png", doctorImg:"doctorImg.png", type:"Medical", date: "March 31, 2022",text:"6 Tips To Protect Your Mental Health When You’re Sick", doctorName:"Rebecca Lee"},
-        {imgSrc:"blogImg.png", doctorImg:"doctorImg.png", type:"Medical", date: "March 31, 2022",text:"6 Tips To Protect Your Mental Health When You’re Sick", doctorName:"Rebecca Lee"},
-        {imgSrc:"blogImg.png", doctorImg:"doctorImg.png", type:"Medical", date: "March 31, 2022",text:"6 Tips To Protect Your Mental Health When You’re Sick", doctorName:"Rebecca Lee"}
-    ]
     return(
         <div>
             <TitleSection/>
@@ -37,6 +30,7 @@ const Homepage = () => {
             <div className="medify-content">
                 <About/>
             </div>
+            <FAQ/>  
         </div>
     )
 }
