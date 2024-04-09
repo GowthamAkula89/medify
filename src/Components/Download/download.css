@@ -1,0 +1,68 @@
+.download-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.download-section1{
+    height: 432px;
+    width: 496px;
+    overflow: hidden;
+}
+.movile-view1{
+    position: relative;
+    left: 185px;
+}
+.mobile-display{
+    position: relative;
+    
+}
+.mobilecover{
+    position: absolute;
+}
+.mobileScreen{
+    position: absolute;
+    top: 33px;
+    left: 9px;
+}
+.movile-view2{
+    position: relative;
+    top: 72px;
+}
+.download-title{
+    width: 338px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    color: #1B3C74;
+}
+.download-text{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #414146;
+}
+.input-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.enter-number{
+    width: 436px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 15px;
+    border-radius: 8px 0 0 8px;
+}
+.downloading-source{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:789px) {
+    .enter-number{
+        width: 269px;
+        border-radius: 8px;
+    }
+}

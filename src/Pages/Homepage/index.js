@@ -11,6 +11,7 @@ import GoalsAndService from "../../Components/GoalsAndService";
 import BlogsAndNews from "../../Components/BlogsAndNews";
 import { About } from "../../Components/About";
 import FAQ from "../../Components/FAQ";
+import Download from "../../Components/Download";
 const Homepage = () => {
     return(
         <div>
@@ -31,6 +32,9 @@ const Homepage = () => {
                 <About/>
             </div>
             <FAQ/>  
+            <div className="medify-content">
+                <Download/>
+            </div>
         </div>
     )
 }
