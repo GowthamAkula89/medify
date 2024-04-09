@@ -9,7 +9,8 @@ const Search = () => {
             </div>
             <div className="input-field">
                 <img className="location-marker" src="location_marker.png" alt="location-maker"></img>
-                <input className="input-value" type="text" placeholder="Search"/>
+                <input className="input-val
+                ue" type="text" placeholder="Search"/>
             </div>
             <div className="search-btn">
                 <img src="searchIcon.png" alt="searchIcon"/>

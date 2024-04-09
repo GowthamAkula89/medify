@@ -15,9 +15,7 @@ export default function OffersSection() {
         { imgSrc: "offer24.png", alt: "offer24", type: "offer24" },
         { imgSrc: "offer5.png", alt: "offer5", type: "offer5" },
     ];    
-
     const [slidesPerView, setSlidesPerView] = useState(3);
-
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 768) {
@@ -25,12 +23,9 @@ export default function OffersSection() {
             } else {
                 setSlidesPerView(3);
             }
-        };
-
+        };  
         handleResize();
-
         window.addEventListener('resize', handleResize);
-
         return () => {
             window.removeEventListener('resize', handleResize);
         };
