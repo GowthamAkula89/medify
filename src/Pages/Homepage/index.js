@@ -12,6 +12,7 @@ import BlogsAndNews from "../../Components/BlogsAndNews";
 import { About } from "../../Components/About";
 import FAQ from "../../Components/FAQ";
 import Download from "../../Components/Download";
+import Footer from "../../Components/Footer";
 const Homepage = () => {
     return(
         <div>
@@ -32,9 +33,10 @@ const Homepage = () => {
                 <About/>
             </div>
             <FAQ/>  
-            <div className="medify-content">
+            <div className="medify-content" style={{marginBottom:"0"}}>
                 <Download/>
             </div>
+            <Footer/>
         </div>
     )
 }
