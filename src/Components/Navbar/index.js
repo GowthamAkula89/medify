@@ -1,23 +1,28 @@
 import React,{useState} from "react";
+import {Link} from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
     return(
         <div>
             <div className={`navbar desktop`}>
-                <img src="logo_medify.png" alt="logo_medify"></img>
+                <Link to="/"  className="navbar-item">
+                    <img src="logo_medify.png" alt="logo_medify"></img>
+                </Link>
                 <div className="navbar-list">
-                    <div>Find Doctors</div>
-                    <div>Hospitals</div>
-                    <div>Medicines</div>
-                    <div>Surgeries</div>
-                    <div>Software for Provider</div>
-                    <div>Facilities</div>
-                    <button className="bookings-btn">My Bookings</button>
+                    <Link to="/hospitals" className="navbar-item">Find Doctors</Link>
+                    <Link to="/hospitals" className="navbar-item">Hospitals</Link>
+                    <Link to="/hospitals" className="navbar-item">Medicines</Link>
+                    <Link to="/hospitals" className="navbar-item">Surgeries</Link>
+                    <Link to="/hospitals" className="navbar-item">Software for Provider</Link>
+                    <Link to="/hospitals" className="navbar-item">Facilities</Link>
+                    <Link to="/bookings" className="navbar-item">
+                        <button className="bookings-btn">My Bookings</button>
+                    </Link>
+                    
                 </div>
             </div>
             <div className={`navbar mobile`}>

@@ -4,6 +4,9 @@
     gap:25px;
     align-items: center;
 }
+.navbar-item{
+    text-decoration:none;
+}
 .navbar.mobile{
     display: none;
 }
@@ -37,6 +40,7 @@
     border-radius: 8px;
     background-color: #2AA8FF;
     border: none;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1312px){
