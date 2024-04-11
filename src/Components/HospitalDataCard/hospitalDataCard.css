@@ -1,0 +1,76 @@
+.hospital-data-card{
+    max-width: 785px;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.hospital-data{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.hospital-img{
+    max-width: 140px;
+    max-height: 140px;
+}
+.hospital-details{
+    width: 339.55px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.hospitalName{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #14BEF0;
+}
+.hospital-city{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    color: #414146;
+}
+.hospital-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: #414146;
+}
+.consult-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: #414146;
+}
+.consult-text1{
+    font-weight: 700;
+    color: #02A401;
+}
+.consult-text2{
+    color: #787887;
+    text-decoration: line-through;
+}
+.votes{
+    width: 44.08px;
+    height: 22.5px;
+    background-color:  #00A500;
+    padding: 4.5px 7.49px 4px 10.8px;;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    gap: 2.79px ;
+    border-radius: 3.5px;
+}
+.booking-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.availability{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: center;
+    color: #01A400;
+}

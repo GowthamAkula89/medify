@@ -16,7 +16,7 @@ const ServicesSection = () => {
                     <div className="services-text">You may be looking for</div>
                     <div className="services-types">
                     {services.map((service, index) => (
-                        <div key={index}>
+                        <div key={index+"aa"}>
                         <div className="service">
                             <img className="service-img" src={service.imgSrc} alt={service.alt} />
                             <div className="service-type">{service.type}</div>

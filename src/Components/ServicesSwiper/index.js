@@ -18,7 +18,7 @@ export default function ServicesSwiper({services}) {
         className="mySwiper"
       >
         {services.map((service, index) => (
-            <div key={index}>
+            <div key={"bb"+index}>
                 <SwiperSlide>
                 <div className="service">
                     <img className="service-img" src={service.imgSrc} alt={service.alt} />

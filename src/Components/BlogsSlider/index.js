@@ -43,7 +43,7 @@ export default function BlogsSlider({blogsDetails}) {
         className="mySwiper"
       >
         {blogsDetails.map((blog, index) => (
-          <SwiperSlide key={index} style={{padding: "18px"}}>
+          <SwiperSlide key={blog.idx} style={{padding: "18px"}}>
             <BlogsCard  data={blog} />
           </SwiperSlide>
         ))}

@@ -1,0 +1,29 @@
+.hospital-section{
+    margin-top: 112px;
+}
+.hospitals-count{
+    font-size: 24px;
+    font-weight: 500;
+}
+.hopitals-verifed{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.verifed-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #787887      ;
+}
+.warning-text{
+    height: 456px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hospitals-details{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
