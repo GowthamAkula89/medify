@@ -4,6 +4,9 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.download-details{
+    margin-bottom: 15px;
+}
 .download-section1{
     height: 432px;
     width: 496px;
@@ -66,5 +69,8 @@
     .enter-number{
         width: 269px;
         border-radius: 8px;
+    }
+    .input-details{
+        gap: 12px;
     }
 }
