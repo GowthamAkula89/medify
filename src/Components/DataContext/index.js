@@ -9,6 +9,7 @@ export const DataProvider = ({ children }) => {
     const [state, setState] = useState("");
     const [city, setCity] = useState("");
     const [states,setStates] = useState([]);
+    const [bookingData, setBookingData] = useState([]);
     useEffect(()=>{
         const fetchData = async() => {
             const stateResponse = await axios.get(`${config.endpoint}/states`)
@@ -17,7 +18,7 @@ export const DataProvider = ({ children }) => {
         fetchData()
     },[])
   return (
-    <DataContext.Provider value={{ state, setState, city, setCity, states}}>
+    <DataContext.Provider value={{ state, setState, city, setCity, states, bookingData, setBookingData}}>
       {children}
     </DataContext.Provider>
   );
