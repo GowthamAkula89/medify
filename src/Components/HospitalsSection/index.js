@@ -28,14 +28,18 @@ const HospitalsSection = () => {
                 <img src="verified.png" alt="" style={{width:"18px",height:"18px"}}/>
                 <div className="verifed-text">Book appointments with minimum wait-time & verified doctor details</div>
             </div>
-            <div className="hospitals-details">
-                {hospitalsData.map((hospital) =>(
-                    <div key={hospital["Provider ID"]}>
-                        <HospitalDataCard hospital ={hospital}/>
-                    </div>
-                    
-                ))}
+            <div className="hospitals-container">
+                <div className="hospitals-details">
+                    {hospitalsData.map((hospital) =>(
+                        <div key={hospital["Provider ID"]}>
+                            <HospitalDataCard hospital ={hospital}/>
+                        </div>
+                        
+                    ))}
+                </div>
+                <img className="hospital-advatise" src="sensodyne_dweb.png" alt=""/>
             </div>
+            
             
         </div>
         ) :<div className="warning-text">Please select both State and City to find the details</div>}
