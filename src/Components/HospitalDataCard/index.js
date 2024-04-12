@@ -28,8 +28,10 @@ const bookVisit = () => {
         timeSlot: selectedTimeSlot
       };
       setBookingData(prevData => [...prevData, newBooking]);
+      setShowModal(!showModal);
       console.log("Booking visit for", selectedDay.toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric" }), "at", selectedTimeSlot);
     }
+
   };
 console.log(bookingData);
 const today = new Date();
