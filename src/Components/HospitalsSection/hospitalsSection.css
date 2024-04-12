@@ -41,4 +41,8 @@
     top: 20px;
     z-index: 1;
 }
-
+@media screen and (max-width: 952px) {
+    .hospital-advatise{
+        display: none;
+    }
+}
