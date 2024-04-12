@@ -125,17 +125,34 @@ color: white;
 background-color: #007bff;
 color: white;
 }
-
+.time-slots-mobile-view{
+    display: none;
+}
 @media (max-width: 768px) {
-.modal-content {
-    width: 90%;
-}
+    .modal{
+        width: 351px;
+    }
+    .modal-content {
+        width: 90%;
+    }
 
-.modal-content .date-item {
-    width: 50%;
-}
+    .modal-content .date-item {
+        width: 50%;
+    }
 
-.modal-content .time-slot {
-    width: 100%;
-}
+    .modal-content .time-slot {
+        width: 100%;
+    }
+    .time-slots{
+        display: none;
+    }
+    .time-slots-mobile-view{
+        display: block;
+    }
+    .date{
+        font-size: 9px;
+    }
+    .available-slots {
+        font-size: 8px;
+    }
 }
