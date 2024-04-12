@@ -76,7 +76,7 @@ return (
             </div>
             <div className="votes">
                 <img src="Frame.png" alt="" />
-                <span>5 </span>
+                <span>{hospital["Hospital overall rating"]} </span>
             </div>
         </div>
         <div className="booking-section">
