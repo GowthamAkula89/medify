@@ -1,0 +1,13 @@
+.date-slot{
+    width: 115px;
+    height: 31.59px;
+    border-radius: 3px;
+    border: 1px solid #007100;
+    color: #007100;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

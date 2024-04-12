@@ -31,7 +31,7 @@
     margin-top: 24px;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    gap: 17px;
 }
 
 .hospital-advatise {
